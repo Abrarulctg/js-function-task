@@ -4,13 +4,13 @@ function odd_even(num) {
     // console.log(num);
 
     if (num % 2 === 0) {
-        return ('even');
+        return ('Given number is even');
     }
     else {
-        return ('odd')
+        return ('Given number is odd')
     }
 }
 
-const number = odd_even(30);
+const number = odd_even(31);
 
 console.log(number);
